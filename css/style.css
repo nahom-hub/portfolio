@@ -1,0 +1,363 @@
+/*=========================================================================================================
+ base style 
+ ==========================================================================================================*/
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ /*=========================================================================================================
+ style rule 
+ Mobile styles: 0 t0 480 px
+ ===========================================================================================================
+ */
+ @media only screen and (max-width : 480px){
+ 
+        
+ }
+
+ /*==========================================================================================================
+ Tablet styles: 481px and greater
+ ============================================================================================================
+ */
+ @media only screen and (min-width : 481 px){
+
+ }
+
+
+ /* =============================================================================================================
+ Desktop style: 769px and greater
+ =================================================================================================================
+ */
+ @media only screen and (min-width: 769px){
+     .container-fluid{
+         background-color: rgb(36, 6, 77);
+         color: #fff;
+          margin-top: 20px;
+        
+        
+         
+     }
+
+    header{
+        float: left;
+    }
+    .logo{
+        margin-left: 89%;
+        margin-top: 10PX;
+    }
+    
+    nav{
+        float: right;
+        margin-right: 106px;
+        margin-top: 46px;
+    }
+   ul{
+    list-style-type: none;
+  
+   }
+
+     ul li{
+    display: inline;
+    }
+    ul li a{
+        color: #fff;
+        text-decoration: none;
+        padding: 20px;
+        }
+        ul li a:hover{
+            color: rgb(241, 91, 3);
+        }
+
+    main{
+        clear: both;
+    }
+    .hi{
+        color: rgb(241, 91, 3);
+        
+    }
+
+    h1{
+        padding-top: 200px;
+        margin-left: 10%;
+        letter-spacing: 2px;
+    }
+    
+    p{
+        margin-left: 10%;  
+        line-height: 2rem;
+        font-size: 1.2rem;
+    }
+ .image-fluid{
+     position: absolute;
+     top : 305px;
+     right: 110px;
+     border: 1px solid rgb(47, 4, 82);
+     border-radius: 10px;
+ }
+
+ .Show-btn{
+     background-color: rgb(241, 91, 3);
+     margin-left: 200px;
+     border: 1px solid rgb(241, 91, 3);
+     border: 1px solid black;
+     border-radius: 50px;
+     margin-top: 299px;
+     margin-left: 590px;
+     
+   
+ }
+ .contact-btn {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.5rem;
+   
+ }
+.contact-btn:hover{
+    color: #000000;
+    
+}
+
+
+
+/* style for the cards */
+.card-text{
+    background-color: rgb(36, 6, 77);
+    padding: 5px;
+}
+#services-cards{
+    padding-top: 50vh;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.card-title{
+    color: rgb(36, 6, 77);
+    text-align: center;
+    padding-bottom: 10px;
+}
+.card-button{
+    padding-left: 28px;
+}
+/*===================================================================================================================
+style for portfolio page
+=====================================================================================================================
+*/
+
+.hero-abebe{
+margin-top: 20PX;
+}
+.first-h1{
+position: relative;
+top: -500px;
+left: -50px;
+
+
+    
+}
+
+.digital-h1{
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px -3px 2px #000000;
+    letter-spacing: 6px;
+    
+}
+ 
+ .one{
+  padding-top: 300px;
+ }
+
+ .second-rwo-pic{
+     padding-top: 25px;
+ }
+.first-row-img{
+    margin-top: -110px;
+}
+ .second-row-img, .third-row-img, .fourth-row-img{
+    padding-top: 68px;
+}
+/* =============================================================================================================== 
+Style for About me page
+===================================================================================================================
+*/
+.about-me-first{
+    width: 50vw;
+    padding-left: 29px;
+}
+.about-me{
+    height: 180vh;
+    background-color: #6c63fe;
+     clip-path:polygon(52% 8%, 100% 0, 100% 96%, 0 96%, 0 0); 
+}
+
+.who{
+  text-align: center;
+  position: relative;
+  top:110px
+}
+.success{
+    padding-top: 150px;
+}
+.degree{
+    text-align: center;
+}
+#accomplish-lists, #skill-lists{
+    height: 100vh;
+    color: #6c63fe;
+    background-color: #fff;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    padding-top: 150px;
+    text-align: center;
+}
+
+
+#progress-h3{
+    text-align: center;
+}
+.progress-one{
+    position: relative;
+    top:70px;
+    left: 670px;
+}
+.progress-two{
+    position: relative;
+    top:70px;
+    left: 750px;
+}
+
+.progress-three{
+    position: relative;
+    top:70px;
+    left: 868px;
+}
+#personal-goal{
+    padding-top: 520px;
+}
+
+.personal-goal-container{
+    background-color: #6c63fe;
+    height: 80vh;
+    border: 1px solid #6c63fe ;
+    border-radius: 100px;
+    box-shadow: -5px -15px #cccccc
+}
+
+#personal-goal-h3{
+    text-align: center;
+    padding-top: 100px;
+}
+.goal-one{
+    text-align: center;
+}
+
+
+/* 
+==================================================================================================================
+
+Style for Contact page
+===================================================================================================================== 
+*/
+
+.get-intouch-container{
+    width: 35vw;
+    margin-left: 70px;
+    padding-top: 25px;
+}
+.touch{
+    color: rgb(241, 91, 3);
+}
+.touch:hover{
+    color:rgb(255, 255, 255); 
+}
+
+.get-in:hover{
+    color: rgb(241, 91, 3);
+}
+.get-intouch-parapgraph{
+    padding-top: 30px;
+    /* text-indent: 40px;*/
+} 
+.get-intouch-svg{
+    margin-left: 690px;
+    position: absolute;
+    top: 320px;
+
+}
+#social-media-icon{
+    margin-left: 750px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+  
+    
+}
+.contact-form{
+    clear: right;
+    /* padding-top: 200px; */
+    margin-left: 300px;
+    background-color: #6c63fe;
+    width: 50vw;
+    height: 50vh;
+    margin-top: 200px;
+    text-align: center;
+    border: 1px solid #6c63fe;
+    border-radius: 10px;
+}
+.input-box{
+    border: 1px solid rgb(253, 251, 251);
+    border-radius: 3px;
+}
+.input-box:hover{
+    background-color: rgb(36, 6, 77);
+}
+#submit{
+    margin-top: 28px;
+    margin-left: 400px;
+    border: 1px solid rgb(253, 251, 251);
+    border-radius: 50px;
+    padding: 0 20px 0 20px;
+}
+#submit:hover{
+    background-color: grey;
+}
+.fab{
+    padding-left: 20px;;
+}
+.icons-link{
+    padding : 10px;
+    
+}
+.fab{
+    margin-left: 10px;
+}
+
+.icons-link a:hover{
+    color: rgb(241, 91, 3);
+}
+
+
+/*===================================================================================================================
+style for footer 
+=====================================================================================================================
+*/
+footer{
+    background-color: #6c63fe;
+    margin-top: 145px;
+    padding-top: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+   
+address{
+    padding-top: 20px;
+}
+.fa-link, .fa-facebook,  .fa-instagram-square, .fa-user-friends, .fa-youtube-square, .fa-address-book, .fa-address-card, .fa-city, .fa-phone-square-alt{
+    margin-right: 12px;
+  }
+
+  .fa-envelope-square{
+      padding-right: 15px;
+  }
+
+     
+}
